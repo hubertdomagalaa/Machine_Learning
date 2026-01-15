@@ -10,6 +10,8 @@
 
 > 🌟 **[Try the Live Demo →](https://ml-cancer-detection.streamlit.app)** - Interactive Cancer Detection System
 
+![Cancer Detection System Demo](docs/demo_screenshot.png)
+
 ---
 
 ## 🎯 Portfolio Overview
