@@ -4,6 +4,11 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+[![CI/CD](https://github.com/hubertdomagalaa/Machine_Learning/actions/workflows/ci.yml/badge.svg)](https://github.com/hubertdomagalaa/Machine_Learning/actions)
+[![Security Policy](https://img.shields.io/badge/security-policy-blueviolet.svg)](./SECURITY.md)
+
+> 🌟 **[Try the Live Demo →](https://ml-cancer-detection.streamlit.app)** - Interactive Cancer Detection System
 
 ---
 
@@ -102,7 +107,7 @@ Machine_Learning/
 │   ├── test_cancer_*.py    # Cancer system tests
 │   └── ...
 │
-├── f/                       # Original exploratory notebooks
+├── notebooks/               # Exploratory analysis notebooks
 │   ├── Cancer/             # Breast cancer classification
 │   ├── Card_Fraud/         # Credit card fraud detection
 │   ├── Digits/             # Handwritten digit recognition
@@ -150,7 +155,7 @@ Machine_Learning/
 - ✅ Comprehensive unit tests
 - ✅ Model versioning and artifact management
 
-**[View Project Details →](./f/Cancer/README.MD)** | **[View Production Code →](./src/cancer/)** | **[API Docs →](./api/cancer_api.py)**
+**[🎮 Try Live Demo →](https://ml-cancer-detection.streamlit.app)** | **[View Project Details →](./notebooks/Cancer/README.MD)** | **[View Production Code →](./src/cancer/)** | **[API Docs →](./api/cancer_api.py)**
 
 ---
 
@@ -169,7 +174,7 @@ Machine_Learning/
 - Time-series features (transaction steps)
 - Multiple transaction types (PAYMENT, TRANSFER, CASH_OUT)
 
-**[View Project Details →](./f/Card_Fraud/readme.md)**
+**[View Project Details →](./notebooks/Card_Fraud/readme.md)**
 
 ---
 
@@ -188,7 +193,7 @@ Machine_Learning/
 - **Accuracy:** ~98%
 - **Confusion Matrix Analysis:** Detailed digit-pair error patterns
 
-**[View Project Details →](./f/Digits/readme.md)**
+**[View Project Details →](./notebooks/Digits/readme.md)**
 
 ---
 
@@ -207,7 +212,7 @@ Machine_Learning/
 - Seasonal and economic factor correlations
 - Multi-year forecasting capabilities
 
-**[View Project Details →](./f/Honey/readme.md)**
+**[View Project Details →](./notebooks/Honey/readme.md)**
 
 ---
 
@@ -221,7 +226,7 @@ Machine_Learning/
 - **Feature Types:** Numerical (colors, area) and categorical (symbols, religion, language)
 - **Evaluation:** Cross-validation, classification reports
 
-**[View Project Details →](./f/Flags/readme.md)**
+**[View Project Details →](./notebooks/Flags/readme.md)**
 
 ---
 
@@ -234,7 +239,7 @@ Machine_Learning/
 - **Features:** Size, shape, color characteristics
 - **Application:** Automated agricultural sorting
 
-**[View Project Details →](./f/Raisins/readme.md)**
+**[View Project Details →](./notebooks/Raisins/readme.md)**
 
 ---
 
@@ -248,7 +253,7 @@ Machine_Learning/
 - **Models:** Classification algorithms with feature importance analysis
 - **Evaluation:** Accuracy, precision, recall, fairness metrics
 
-**[View Project Details →](./f/income_class/readme.md)**
+**[View Project Details →](./notebooks/income_class/readme.md)**
 
 ---
 
@@ -269,7 +274,7 @@ This project showcases **professional Python development**:
 - ✅ BMI calculation encapsulation
 - ✅ Comprehensive error handling
 
-**[View Project Details →](./f/Medical_Insurance/readme.md)** | **[View Code →](./f/Medical_Insurance/medical_insurance_.py)**
+**[View Project Details →](./notebooks/Medical_Insurance/readme.md)** | **[View Code →](./notebooks/Medical_Insurance/medical_insurance_.py)**
 
 ---
 
@@ -331,9 +336,11 @@ pytest, flake8, black, mypy
 - [x] MIT License
 
 ### 🚧 In Progress
-- [ ] Docker containerization
-- [ ] CI/CD pipeline (GitHub Actions)
-- [ ] Streamlit demo applications
+- [x] Docker containerization
+- [x] CI/CD pipeline (GitHub Actions)
+- [x] Streamlit demo applications
+- [x] Pre-commit hooks & code quality automation
+- [x] GitHub issue & PR templates
 - [ ] Advanced algorithms (XGBoost, Prophet)
 - [ ] Model interpretability (SHAP values)
 
@@ -371,7 +378,7 @@ This portfolio represents my growth in:
 ## 🤝 Contact & Collaboration
 
 **GitHub:** [@hubertdomagalaa](https://github.com/hubertdomagalaa)  
-**Email:** hubert.domagala@example.com *(Update with your actual email)*
+**Email:** hubert.domagalaa@gmail.com
 
 💼 **Open to opportunities in:**
 - Machine Learning Engineer roles
@@ -398,3 +405,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ⭐ **If you find this portfolio valuable, please consider starring the repository!**
 
 *Last updated: January 2026*
+
